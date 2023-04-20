@@ -43,7 +43,7 @@ class DisjointSet{
         }
         else {
             parent[upv]=upu;
-            rank[upu]+=size[upv];
+            size[upu]+=size[upv];
         }
     }
 };
